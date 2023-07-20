@@ -3,11 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="styles/main.scss">
     <title>Aniversário do vitor</title>
 </head>
 <body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./image/logo.png" alt="Casa Bela">
+            <p class="hero__text">
+                Você foi convidado (a) para a melhor festa retrô de todos os tempos e acontecerá em <br><span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Casa de Festas Casa Bela - Nova iguaçu - Rj
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Informação</b>
+                        Obrigatório Fantasia
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Horário</b>
+                        21/07/2023 ás 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">Confirme sua Presença</a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--pista">
+        <div class="container" data-aos="fade-right">
+        <div class="event__details">
+            <h2 class="event__details__title">Pista de dança</h2>
+            <p class="event__details__description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quas hic libero, voluptatem doloremque repellendus necessitatibus exercitationem velit? Provident unde placeat consectetur quae nobis alias asperiores quos blanditiis cupiditate commodi!
+            </p>
+        </div>
+        <img class="event__image" src="./image/image01.png" alt="Pista de dança">
+    </div>
+    </section>
+    <section class="event event--barmen">
+        <div class="container" data-aos="fade-left">
+        <div class="event__details">
+            <h2 class="event__details__title">Barman</h2>
+            <p class="event__details__description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quas hic libero, voluptatem doloremque repellendus necessitatibus exercitationem velit? Provident unde placeat consectetur quae nobis alias asperiores quos blanditiis cupiditate commodi!
+            </p>
+        </div>
+        <img class="event__image" src="./image/image05.png" alt="Barman">
+    </div>
+    </section>
+    <section class="event event--buffet">
+        <div class="container" data-aos="flip-left">
+        <div class="event__details">
+            <h2 class="event__details__title">Buffet</h2>
+            <p class="event__details__description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quas hic libero, voluptatem doloremque repellendus necessitatibus exercitationem velit? Provident unde placeat consectetur quae nobis alias asperiores quos blanditiis cupiditate commodi!
+            </p>
+        </div>
+        <img class="event__image" src="./image/buffet.png" alt="Buffet">
+    </div>
+    </section>
+    <section class="event event--jogos">
+        <div class="container" data-aos="flip-right">
+        <div class="event__details">
+            <h2 class="event__details__title">Jogos</h2>
+            <p class="event__details__description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quas hic libero, voluptatem doloremque repellendus necessitatibus exercitationem velit? Provident unde placeat consectetur quae nobis alias asperiores quos blanditiis cupiditate commodi!
+            </p>
+        </div>
+        <img class="event__image" src="./image/jogos.png" alt="Jogos">
+    </div>
+    </section>
     
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
+
+barmen
